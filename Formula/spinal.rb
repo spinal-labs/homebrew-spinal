@@ -1,30 +1,30 @@
 class Spinal < Formula
   desc "Capture local development context for Spinal PR reviews"
   homepage "https://getspinal.com"
-  version "0.1.7"
+  version "0.1.8"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://downloads.getspinal.com/cli/0.1.7/spinal_0.1.7_darwin_arm64.tar.gz"
-      sha256 "b7c037bd4d6ec7a4d2a028daea21ab8027317bd6fce447eaca787bbf3bb000e7"
+      url "https://downloads.getspinal.com/cli/0.1.8/spinal_0.1.8_darwin_arm64.tar.gz"
+      sha256 "fea6915118920a8bd6b2af080fb90d1966519f7968f84f9e98eebf978186560f"
     end
 
     on_intel do
-      url "https://downloads.getspinal.com/cli/0.1.7/spinal_0.1.7_darwin_amd64.tar.gz"
-      sha256 "5b6636ab2f0c1728c8fedebd905452955a8ac35acca727de97c1b66a64c1ac37"
+      url "https://downloads.getspinal.com/cli/0.1.8/spinal_0.1.8_darwin_amd64.tar.gz"
+      sha256 "32d124ee880d3eaf26a26d3d6ec397f3fb931bd089586ea6a2491a9e895ee490"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.getspinal.com/cli/0.1.7/spinal_0.1.7_linux_arm64.tar.gz"
-      sha256 "30e1f494c9aeb257b62033e2b42f0d8a3d22a528076b5dfbe41588b34ef2796f"
+      url "https://downloads.getspinal.com/cli/0.1.8/spinal_0.1.8_linux_arm64.tar.gz"
+      sha256 "dcba12900380348b5ca74503ccbac1084965ae7da80e0e4f4a712c8f201f75e3"
     end
 
     on_intel do
-      url "https://downloads.getspinal.com/cli/0.1.7/spinal_0.1.7_linux_amd64.tar.gz"
-      sha256 "4ba1440245048e45afe166cbe8544e2db70671ec080d9b7b7c8f81d58bb974ca"
+      url "https://downloads.getspinal.com/cli/0.1.8/spinal_0.1.8_linux_amd64.tar.gz"
+      sha256 "c297478ea091a54e0bfd2a4ab6be1c96c59508c66ecd098dec7a279ca3b13a43"
     end
   end
 
