@@ -7,24 +7,24 @@ class Spinal < Formula
   on_macos do
     on_arm do
       url "https://downloads.getspinal.com/cli/0.1.0/spinal_0.1.0_darwin_arm64.tar.gz"
-      sha256 "b82563ef3086e7c0abc6008951f5c191ec2f3582adb6a2dc4842f6008ad59c92"
+      sha256 "f1b34d79e739a887baa329f7a32adf18bcfd442d46220261def9ce97eb81f3ec"
     end
 
     on_intel do
       url "https://downloads.getspinal.com/cli/0.1.0/spinal_0.1.0_darwin_amd64.tar.gz"
-      sha256 "2a7e8ee502bf7cfb6926877c61a0f25fc4434751645be5830f10b93eff52c4bb"
+      sha256 "a39a9143f89d4f3036e06f64b23d33261218333142cbc0239f9b286c391e359b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://downloads.getspinal.com/cli/0.1.0/spinal_0.1.0_linux_arm64.tar.gz"
-      sha256 "be7cf491229c9eb83740f68395e4d48cc571a716b88d1cddd3d0eb0a81d07a1f"
+      sha256 "52527af1338739dabc273d0826464cc06732ec6283c8ee8be64ba3108238be52"
     end
 
     on_intel do
       url "https://downloads.getspinal.com/cli/0.1.0/spinal_0.1.0_linux_amd64.tar.gz"
-      sha256 "a23f0fe440739cea726e245832b498c4bb7799509ed0784d7d0453191053a626"
+      sha256 "de0168efa62723bb7fea3d016ea213470b266a7c190032874b5730e395e49e3e"
     end
   end
 
